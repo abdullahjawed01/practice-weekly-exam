@@ -6,10 +6,7 @@ const git = simpleGit();
 
 const markCommit = () => {
   return moment()
-    .subtract(1, "year")
-    .add(1, "day")
-    .add(42, "weeks")
-    .add(4, "days")
+    .subtract(3, "day")
     .format();
 };
 
